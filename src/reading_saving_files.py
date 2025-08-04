@@ -18,4 +18,4 @@ class ReadAndSaveFile:
 
     def save_results_json(self, results_json):
         with open(self.results, "w") as f:
-            json.dump(results_json, f)
+            json.dump(results_json, f, indent=4)

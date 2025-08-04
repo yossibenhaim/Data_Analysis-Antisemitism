@@ -30,3 +30,6 @@ class ReportBuilder:
             {"antisemitic" : antisemitic,
             "non_antisemitic" : non_antisemitic,
             "total": total}
+
+    def return_report(self):
+        return self.report
