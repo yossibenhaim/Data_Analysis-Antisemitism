@@ -5,7 +5,7 @@ class ReadAndSaveFile:
 
     def __init__(self):
 
-        self.dataset_tweets = "../data/dataset_tweets.csv"
+        self.dataset_tweets = "../data/tweets_dataset.csv"
         self.tweets_dataset_cleaned = "../results/tweets_dataset_cleaned.csv"
         self.results = "../results/results.json"
 
