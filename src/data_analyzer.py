@@ -32,7 +32,7 @@ class DataAnalyzer:
         data = self.data.groupby(["Biased", "len"])["Text"].apply(lambda x :x)
         return data
 
-    def uppercase_words(self):
+    def uppercase_words_total(self):
         my_dict = {}
         my_list = [self.data[["Text"]].values[i][0] for i in range(len(self.data[["Text"]].values))]
         for x in my_list:
